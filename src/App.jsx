@@ -7,15 +7,17 @@ import Links from "./layout/Links.jsx";
 import Random from "./layout/Random.jsx";
 function App() {
   return (
-    <div>
+    <div className="font-sans">
       <Navbar />
-      <Hero />
-      <main>
-        <About />
-        <Links />
-        <Contact />
-        <Random />
-      </main>
+      <div>
+        <Hero />
+        <main className="flex justify-between">
+          <About />
+          <Links />
+          <Contact />
+          <Random />
+        </main>
+      </div>
       <Footer />
     </div>
   );
