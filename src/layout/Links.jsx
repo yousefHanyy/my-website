@@ -1,7 +1,7 @@
 export default function Links() {
   return (
     <section>
-      <h3>Links</h3>
+      <h3 className="text-center">Links</h3>
     </section>
   );
 }
