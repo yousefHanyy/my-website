@@ -1,7 +1,7 @@
 export default function About() {
   return (
-    <section>
-      <h3 className="text-center">About Me</h3>
+    <section className=" min-w-[15%] bg-[#E6EBE0]">
+      <h3 className="text-center p-5">About Me</h3>
     </section>
   );
 }

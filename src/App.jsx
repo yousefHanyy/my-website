@@ -8,11 +8,11 @@ import Random from "./layout/Random.jsx";
 function App() {
   return (
     <div className="flex flex-col min-h-screen">
-      <div className="font-sans w-[50vw] m-auto h-[50vh]">
+      <div className="flex flex-col font-sans w-[45vw] m-auto h-[50vh]">
         <Navbar />
-        <div>
+        <div className="flex flex-col grow">
           <Hero />
-          <main className="flex justify-between">
+          <main className="flex grow justify-around items-center bg-[#F4F1BB]">
             <About />
             <Links />
             <Contact />
